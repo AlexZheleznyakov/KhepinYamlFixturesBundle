@@ -146,7 +146,7 @@ class YamlLoader {
             'mongodb'   => 'doctrine.odm.mongodb',
         );
         return $this->kernel->getContainer()
-            ->get($managers[$persistence])->getManager();
+            ->get($managers[$persistence])->getEntityManager();
     }
 
     /**
