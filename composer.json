@@ -14,7 +14,7 @@
     "require": {
         "doctrine/doctrine-fixtures-bundle": "2.*",
         "doctrine/orm": "2.*",
-        "doctrine/doctrine-bundle": "2.1.*"
+        "doctrine/doctrine-bundle": "1.0.x"
     },
     "require-dev": {
         "doctrine/mongodb-odm-bundle": "dev-master",
